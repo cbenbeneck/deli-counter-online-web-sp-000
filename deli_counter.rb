@@ -4,7 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else katz_deli.any?
     count = katz_deli.count + 1  
-    katz_deli.map.with_index{
+    katz_deli.map
     puts "The line is currently #{count} #{katz_deli.join(" ")}"
   end
 end
