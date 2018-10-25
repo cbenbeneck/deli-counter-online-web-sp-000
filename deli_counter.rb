@@ -14,7 +14,7 @@ def take_a_number(katz_deli,person)
   puts "Welcome, #{person}. You are number #{count} in line."
 end 
 
-def now_serving(katz,deli)
+def now_serving(katz_deli)
   if katz_deli.any? 
   first = katz_deli[0]
   puts "Now serving #{first}"
