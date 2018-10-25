@@ -15,6 +15,10 @@ def take_a_number(katz_deli,person)
 end 
 
 def now_serving(katz,deli)
+  if katz_deli.any? 
   first = katz_deli[0]
   puts "Now serving #{first}"
+else 
+  puts "There is nobody waiting to be served!"
+  end 
 end 
