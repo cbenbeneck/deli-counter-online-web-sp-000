@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else katz_deli.any?
-    count = array.map{array.index
+    count = array.map{array.count} 
     puts "The line is currently #{katz_deli.join(" ")}"
   end
 end
