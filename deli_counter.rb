@@ -10,6 +10,7 @@ end
 
 def take_a_number(katz_deli,person)
   katz_deli<< person 
-  puts "Welcome, #{person}. You are number X in line."
+  count = katz_deli.count + 1 
+  puts "Welcome, #{person}. You are number #{count} in line."
   
 end 
