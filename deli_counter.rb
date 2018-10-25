@@ -5,7 +5,7 @@ def line(katz_deli)
   else katz_deli.any?
     count = katz_deli.count + 1  
     katz_deli.map { |value| count + value} 
-    puts "The line is currently #{count} #{katz_deli.join(" ")}"
+    puts "The line is currently #{katz_deli.join(" ")}"
   end
 end
 
