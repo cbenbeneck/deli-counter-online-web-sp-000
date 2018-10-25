@@ -17,7 +17,7 @@ end
 def now_serving(katz_deli)
   if katz_deli.any? 
   first = katz_deli[0]
-  puts "Now serving #{first}"
+  puts "Currently serving #{first}."
 else 
   puts "There is nobody waiting to be served!"
   end 
