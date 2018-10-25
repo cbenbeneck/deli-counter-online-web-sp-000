@@ -12,5 +12,9 @@ def take_a_number(katz_deli,person)
   katz_deli<< person 
   count = katz_deli.count  
   puts "Welcome, #{person}. You are number #{count} in line."
-  
+end 
+
+def now_serving(katz,deli)
+  first = katz_deli[0]
+  puts "Now serving #{first}"
 end 
